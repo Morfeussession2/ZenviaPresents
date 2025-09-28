@@ -6,23 +6,23 @@ const ConclusionSlide = () => {
   const keyPoints = [
     {
       icon: CheckCircle,
-      title: "Problema Solucionado",
-      description: "Análise automatizada de qualidade de tarefas"
+      title: "Análise N3 e NPS",
+      description: "Solução para análise de nível 3 e redução de NPS negativo."
     },
     {
       icon: TrendingUp,
-      title: "Resultados Comprovados",
-      description: "80% menos tempo, 65% menos bugs"
+      title: "Refinamento com IA",
+      description: "IA automatiza refinamento, cortando reuniões."
     },
     {
       icon: Users,
-      title: "Equipes Alinhadas",
-      description: "Comunicação clara e objetivos bem definidos"
+      title: "Agente por Produto",
+      description: "Criar agentes específicos para cada produto."
     },
     {
       icon: Rocket,
-      title: "Pronto para Usar",
-      description: "Implementação imediata, sem complexidade"
+      title: "Disponibilidade Automática",
+      description: "IA aloca tarefas conforme disponibilidade."
     }
   ];
 
@@ -30,11 +30,12 @@ const ConclusionSlide = () => {
     <div className="h-full flex flex-col justify-center space-y-8">
       <div className="text-center mb-6">
         <h1 className="text-5xl font-bold text-primary matrix-text-glow font-monox mb-4">
-          CONCLUSÃO
+          PRÓXIMOS PASSOS E VISÃO DE FUTURO
         </h1>
-        <p className="text-2xl text-foreground max-w-4xl mx-auto">
-          Task Refinement Agent: O futuro da gestão de projetos chegou
-        </p>
+        {/* <p className="text-2xl text-foreground max-w-4xl mx-auto">Análise N3 e NPS: Solução para análise de nível 3 e redução de NPS negativo. */}
+        {/* <p className="text-2xl text-foreground max-w-4xl mx-auto">Refinamento com IA: IA automatiza refinamento, cortando reuniões. */}
+        {/* <p className="text-2xl text-foreground max-w-4xl mx-auto">Agente por Produto: Criar agentes específicos para cada produto. */}
+        {/* <p className="text-2xl text-foreground max-w-4xl mx-auto">Disponibilidade Automática: IA aloca tarefas conforme disponibilidade. */}
       </div>
 
       {/* Key Points */}
@@ -67,7 +68,7 @@ const ConclusionSlide = () => {
       </div>
 
       {/* Call to Action */}
-      <div className="text-center space-y-6">
+      {/* <div className="text-center space-y-6">
         <Card className="inline-block p-8 matrix-border matrix-glow-intense bg-white/10 backdrop-blur-lg border border-white/20 rounded-xl">
           <h2 className="text-3xl font-bold text-primary matrix-text-glow font-monox mb-4">
             EXPERIMENTE AGORA!
@@ -93,7 +94,7 @@ const ConclusionSlide = () => {
             </Button>
           </div>
         </Card>
-      </div>
+      </div> */}
 
       {/* Footer Quote */}
       
