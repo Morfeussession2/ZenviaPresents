@@ -5,28 +5,24 @@ import Videobg from "@/components/Videobg.tsx";
 const ProblemSlide = () => {
   const problems = [
     {
-      icon: AlertTriangle,
-      title: "Tarefas mal definidas",
-      description: "Descrições vagas levam a interpretações diferentes e retrabalho.",
-      // impact: "40% dos bugs"
-    },
-    {
       icon: Clock,
-      title: "Perda de tempo",
-      description: "Múltiplas reuniões de refinamento consomem horas preciosas da equipe.",
-      // impact: "8h/semana"
+      title: "Incerteza no Esforço",
+      description: "Análise de esforço e capacidade frequentemente demorada e imprecisa.",
     },
     {
       icon: Bug,
-      title: "Critérios Ausentes",
+      title: "Risco de Erros",
+      description: "Revisões manuais consomem tempo e são propensas a erros humanos.",
+    },
+    {
+      icon: AlertTriangle,
+      title: "Despadronização",
       description: "Falta de critérios e objetivos claros gera ambiguidade.",
-      // impact: "60% das tarefas"
     },
     {
       icon: Users,
-      title: "Desalinhamento",
-      description: "Equipes não compreendem o contexto completo das demandas.",
-      // impact: "30% de retrabalho"
+      title: "Desperdício de Recursos",
+      description: "Necessidade urgente de otimizar recursos e tempo em projetos.",
     }
   ];
 
@@ -41,7 +37,7 @@ const ProblemSlide = () => {
             O PROBLEMA
           </h1>
           <p className="text-2xl text-foreground max-w-4xl mx-auto">
-            Estamos automatizando o desafio do discovery
+            Eficiência no refinamento para focar no desenvolvimento
           </p>
         </div>
 
