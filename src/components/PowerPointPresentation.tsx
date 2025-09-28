@@ -66,7 +66,7 @@ const PowerPointPresentation = () => {
       {/* Header with navigation */}
       <header className="relative z-20 flex items-center justify-between p-4 border-b border-primary/20">
         <div className="flex items-center gap-4">
-            <img src="logo_zenvia.svg" alt="Task Refinement Agent" style={{ height: '2em', width: 'auto', display: 'inline-block', verticalAlign: 'middle' }}/>
+            <img src="/logo_zenvia.svg" alt="Task Refinement Agent" style={{ height: '2em', width: 'auto', display: 'inline-block', verticalAlign: 'middle' }}/>
           <h1 className="text-lg font-monox text-primary matrix-text-glow">
             Task Refinement Agent - Apresentação
           </h1>
