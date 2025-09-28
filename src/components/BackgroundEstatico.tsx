@@ -12,7 +12,7 @@ const BackgroundEstatico = () => {
             // filter: 'blur(4px)'
         }}
         >
-        <img src="IMG_0244.JPG" style={{height: '100%', width: '100%'}}/>
+        <img src="/IMG_0244.JPG" style={{height: '100%', width: '100%'}}/>
     </div>
   );
 };
