@@ -10,6 +10,7 @@ import BenefitsSlide from "@/components/slides/BenefitsSlide";
 import DemoSlide from "@/components/slides/DemoSlide";
 import ConclusionSlide from "@/components/slides/ConclusionSlide";
 import BackgroundAnimadoMatrix from "@/components/BackgroundAnimadoMatrix";
+import ChallengesSlide from "@/components/slides/ChallengesSlide";
 import BackgroundEstatico from "@/components/BackgroundEstatico";
 
 const PowerPointPresentation = () => {
@@ -23,6 +24,7 @@ const PowerPointPresentation = () => {
     { component: SolutionSlide, title: "A Solução" },
     { component: HowItWorksSlide, title: "Como Funciona" },
     { component: BenefitsSlide, title: "Benefícios" },
+    { component: ChallengesSlide, title: "Desafios e Aprendizados" },
     { component: DemoSlide, title: "Demonstração" },
     { component: ConclusionSlide, title: "Conclusão" }
   ];

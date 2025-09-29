@@ -41,16 +41,23 @@ const HowItWorksSlide = () => {
   return (
     <div className="h-full flex flex-col justify-center space-y-8">
       <div className="text-center mb-6">
-        <h1 className="text-5xl font-bold text-primary matrix-text-glow font-monox mb-4">
-          COMO FUNCIONA
+        <h1 className="text-5xl font-bold text-primary matrix-text-glow font-monox">
+          ARQUITETURA DA SOLUÇÃO
         </h1>
-        <p className="text-xl text-foreground">
+        {/* <p className="text-xl text-foreground">
           Processo de análise em 4 etapas simples
-        </p>
+        </p> */}
       </div>
 
+      <img 
+        src="/fluxograma.png" 
+        alt="Fluxograma da Arquitetura"
+        className="mx-auto w-3/4 rounded-lg shadow-lg animate-fade-in"
+        style={{ animationDelay: '0.3s' }}
+      />
+
       {/* Workflow Steps */}
-      <div className="flex items-center justify-center gap-4 mb-8">
+      {/* <div className="flex items-center justify-center gap-4 mb-8">
         {steps.map((step, index) => {
           const IconComponent = step.icon;
           return (
@@ -75,10 +82,10 @@ const HowItWorksSlide = () => {
             </div>
           );
         })}
-      </div>
+      </div> */}
 
       {/* Analysis Criteria */}
-      <div className="max-w-4xl mx-auto">
+      {/* <div className="max-w-4xl mx-auto">
         <h2 className="text-2xl font-semibold text-center text-primary mb-6 font-monox">
           Critérios de Análise
         </h2>
@@ -104,7 +111,7 @@ const HowItWorksSlide = () => {
             </Card>
           ))}
         </div>
-      </div>
+      </div> */}
 
       
     </div>
