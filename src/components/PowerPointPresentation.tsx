@@ -10,8 +10,11 @@ import BenefitsSlide from "@/components/slides/BenefitsSlide";
 import DemoSlide from "@/components/slides/DemoSlide";
 import ConclusionSlide from "@/components/slides/ConclusionSlide";
 import BackgroundAnimadoMatrix from "@/components/BackgroundAnimadoMatrix";
+import AutonomySlide from "@/components/slides/AutonomySlide";
 import ChallengesSlide from "@/components/slides/ChallengesSlide";
 import BackgroundEstatico from "@/components/BackgroundEstatico";
+import ExpectationsSlide from "@/components/slides/ExpectationsSlide";
+import CostSlide from "@/components/slides/CostSlide";
 
 const PowerPointPresentation = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -22,10 +25,13 @@ const PowerPointPresentation = () => {
     // { component: DefinitionSlide, title: "Definição Necessaria" },
     { component: ProblemSlide, title: "O Problema" },
     { component: SolutionSlide, title: "A Solução" },
+    { component: DemoSlide, title: "Demonstração" },
     { component: HowItWorksSlide, title: "Como Funciona" },
     { component: BenefitsSlide, title: "Benefícios" },
+    { component: CostSlide, title: "Custos" },
+    { component: ExpectationsSlide, title: "Expectativas" },
+    { component: AutonomySlide, title: "Autonomia" },
     { component: ChallengesSlide, title: "Desafios e Aprendizados" },
-    { component: DemoSlide, title: "Demonstração" },
     { component: ConclusionSlide, title: "Conclusão" }
   ];
   
