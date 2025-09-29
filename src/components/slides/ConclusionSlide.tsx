@@ -7,12 +7,12 @@ const ConclusionSlide = () => {
     {
       icon: CheckCircle,
       title: "Análise N3 e NPS",
-      description: "Solução para análise de nível 3 e redução de NPS negativo."
+      description: "Atuação em N3 para redução de NPS."
     },
     {
       icon: TrendingUp,
       title: "Refinamento com IA",
-      description: "IA automatiza refinamento, cortando reuniões."
+      description: "Automatiza o refinamento otimizando a necessidade de reunições."
     },
     {
       icon: Users,
@@ -21,8 +21,8 @@ const ConclusionSlide = () => {
     },
     {
       icon: Rocket,
-      title: "Disponibilidade Automática",
-      description: "IA aloca tarefas conforme disponibilidade."
+      title: "Multi-Agents",
+      description: "Agentes interagem entre si para decidir melhor solução."
     }
   ];
 

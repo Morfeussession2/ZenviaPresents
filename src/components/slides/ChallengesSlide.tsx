@@ -6,7 +6,7 @@ const ChallengesSlide = () => {
     {
       icon: Cloud,
       title: "Configuração do Amazon Bedrock",
-      description: "Integração com serviços avançados de IA para garantir escalabilidade e eficiência.",
+      description: "Configurar agentes avançados de IA garantindo escalabilidade e eficiência.",
       color: "text-blue-500"
     },
     {
@@ -27,7 +27,7 @@ const ChallengesSlide = () => {
     {
       icon: Clock,
       title: "Monitoramento salva tempo",
-      description: "Automatizar o acompanhamento para reduzir esforços manuais.",
+      description: "Possibilitar o acompanhamento do processo a partir de logs estruturados",
       color: "text-primary"
     },
     {

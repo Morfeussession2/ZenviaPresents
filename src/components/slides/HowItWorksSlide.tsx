@@ -1,6 +1,7 @@
 import { Zap, FileText, Cpu, CheckCircle, TrendingUp } from "lucide-react";
 import { Card } from "@/components/ui/card";
 import { Icone1, Icone2, Icone3, Icone4, Icone5, Icone6 } from "@/components/Iconesdiferentes"; 
+import { sub } from "date-fns";
 
 // Array com propriedades de cada card, fácil de editar/expandir
 const diagramCards = [
@@ -57,10 +58,11 @@ const diagramCards = [
   },
   {
     icon: Icone4,
-    title: "Claude Sonnet 4",
+    title: "AWS Bedrock",
+    subtitle: "Claude Sonnet 4",
     color: "text-white",
     top: "70%", left: "110%",
-    width: 170, height: 100,
+    width: 170, height: 120,
     iconColor: "border-purple-400 bg-[#27113f]/80",
     zIndex: 10,
     transform: "translate(-100%,-50%)",

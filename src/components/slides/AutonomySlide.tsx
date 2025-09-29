@@ -5,14 +5,14 @@ const AutonomySlide = () => {
   const topics = [
     {
       icon: UserCheck,
-      title: "Mínima Interferência Humana",
-      description: "Processos automatizados que reduzem ao máximo a necessidade de intervenção manual.",
+      title: "Interferência Humana",
+      description: "Apenas para criação da task no Jira.",
       color: "text-green-500"
     },
     {
       icon: Code,
-      title: "Refinamento Técnico Automático",
-      description: "Interpretação autônoma de tasks para gerar refinamentos técnicos precisos e imediatos.",
+      title: "Refinamento Técnico Instantâneo",
+      description: "A partir do momento que a task é criada, o prompt interpreta e retorna o refinamento técnico de forma 100% autônoma.",
       color: "text-blue-500"
     }
   ];
@@ -21,7 +21,7 @@ const AutonomySlide = () => {
     <div className="h-full flex flex-col justify-center space-y-8">
       <div className="text-center mb-6">
         <h1 className="text-5xl font-bold text-primary matrix-text-glow font-monox">
-          AUTONOMIA E REFINAMENTO TÉCNICO
+          AUTONOMIA 
         </h1>
       </div>
 

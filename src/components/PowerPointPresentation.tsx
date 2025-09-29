@@ -6,7 +6,7 @@ import TitleSlide from "@/components/slides/TitleSlide";
 import ProblemSlide from "@/components/slides/ProblemSlide";
 import SolutionSlide from "@/components/slides/SolutionSlide";
 import HowItWorksSlide from "@/components/slides/HowItWorksSlide";
-import BenefitsSlide from "@/components/slides/BenefitsSlide";
+// import BenefitsSlide from "@/components/slides/BenefitsSlide";
 import DemoSlide from "@/components/slides/DemoSlide";
 import ConclusionSlide from "@/components/slides/ConclusionSlide";
 import BackgroundAnimadoMatrix from "@/components/BackgroundAnimadoMatrix";
@@ -27,7 +27,7 @@ const PowerPointPresentation = () => {
     { component: SolutionSlide, title: "A Solução" },
     { component: DemoSlide, title: "Demonstração" },
     { component: HowItWorksSlide, title: "Como Funciona" },
-    { component: BenefitsSlide, title: "Benefícios" },
+    // { component: BenefitsSlide, title: "Benefícios" },
     { component: CostSlide, title: "Custos" },
     { component: ExpectationsSlide, title: "Expectativas" },
     { component: AutonomySlide, title: "Autonomia" },

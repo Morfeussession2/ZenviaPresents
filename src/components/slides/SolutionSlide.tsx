@@ -27,13 +27,18 @@ const features = [
 
 const commentText = 
 `
- IMPACTO: ads-bff e ads-centralizer (rotas de configuração CustomData)
-RECURSOS: 2 devs (1 backend, 1 frontend) - 1-2 sprints
-RISCOS: 
-Definição de requisitos (quando duplicar é necessário)
-Impacto em fluxos existentes de migração
-Possível refatoração da lógica de permissões de edição
-RECOMENDAÇÃO: Priorizar levantamento de requisitos com stakeholders antes do desenvolvimento`;
+  ANÁLISE TÉCNICA JIRA TESTE-65: Melhorias da Home de Disparo
+  Impacto nos Componentes:
+  notification-bff: Implementar novos endpoints para métricas segmentadas por canal/período
+  message-status-consolidator: Agregar dados históricos com cálculo de variações percentuais
+  bulksender: Exposição de dados de envio segmentados por canal
+  Recursos Necessários:
+  2-3 desenvolvedores (1 sênior para arquitetura de dados, 1-2 plenos para frontend/BFF)
+  Estimativa: 2-3 sprints (considerando complexidade de agregação temporal e feature toggle)
+  Dependências de Times:
+  Time de Arquitetura: Não necessário (solução dentro do ecossistema Atrair)
+  Time de Canais: Não necessário (dados já disponíveis nos serviços existentes)
+`;
 
 const SolutionSlide = () => {
   const safeText = commentText.trimEnd(); // agora use safeText abaixo!
