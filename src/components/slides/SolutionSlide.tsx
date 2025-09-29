@@ -27,7 +27,7 @@ const features = [
 
 const commentText = 
 `
-IMPACTO: ads-bff e ads-centralizer (rotas de configuração CustomData)
+ IMPACTO: ads-bff e ads-centralizer (rotas de configuração CustomData)
 RECURSOS: 2 devs (1 backend, 1 frontend) - 1-2 sprints
 RISCOS: 
 Definição de requisitos (quando duplicar é necessário)
@@ -48,7 +48,7 @@ const SolutionSlide = () => {
       } else {
         clearInterval(interval);
       }
-    }, 34);
+    }, 15);
     return () => clearInterval(interval);
   }, []);
   // ...restante do componente
@@ -56,7 +56,7 @@ const SolutionSlide = () => {
     <div className="h-full flex flex-col justify-center space-y-10 px-4">
       <div className="text-center mb-4">
         <h1 className="text-5xl font-bold text-primary matrix-text-glow font-monox">
-          A SOLUÇÃO [EM ANDAMENTO]
+          A SOLUÇÃO 
         </h1>
       </div>
       <div className="flex flex-row gap-8 max-w-7xl mx-auto w-full">

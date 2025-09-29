@@ -40,8 +40,9 @@ const DemoSlide = () => {
         </p>
       </div>
 
-      <div className="grid grid-cols-2 gap-8 max-w-6xl mx-auto h-[500px]">
-        {/* Input Section */}
+      <video src="/demo_video.mp4" controls className="mx-auto rounded-lg border border-white/20 shadow-lg w-full max-w-4xl" />
+
+      {/* <div className="grid grid-cols-2 gap-8 max-w-6xl mx-auto h-[500px]">
         <Card className="p-6 matrix-border matrix-glow bg-gradient-to-br from-secondary/30 to-transparent">
           <div className="space-y-4 h-full flex flex-col">
             <div className="flex items-center gap-2">
@@ -67,7 +68,6 @@ const DemoSlide = () => {
           </div>
         </Card>
 
-        {/* Output Section */}
         <Card className="p-6 matrix-border matrix-glow bg-gradient-to-br from-primary/10 to-transparent">
           <div className="space-y-4 h-full flex flex-col">
             <div className="flex items-center gap-2">
@@ -79,7 +79,6 @@ const DemoSlide = () => {
 
             {showAnalysis ? (
               <div className="space-y-4 flex-1">
-                {/* Criteria Analysis */}
                 <div className="space-y-2">
                   <h3 className="text-sm font-semibold text-primary">🟢 Critérios Analisados:</h3>
                   {analysis.criteria.map((criterion, index) => (
@@ -92,7 +91,6 @@ const DemoSlide = () => {
                   ))}
                 </div>
 
-                {/* Score */}
                 <div className="p-3 rounded-lg matrix-border bg-secondary/30 text-center">
                   <div className="text-lg font-bold text-orange-500">
                     🔺 Precisa Melhorar
@@ -102,7 +100,6 @@ const DemoSlide = () => {
                   </div>
                 </div>
 
-                {/* Suggestions */}
                 <div className="space-y-2">
                   <h3 className="text-sm font-semibold text-primary">Sugestões da IA:</h3>
                   {analysis.suggestions.map((suggestion, index) => (
@@ -123,7 +120,7 @@ const DemoSlide = () => {
             )}
           </div>
         </Card>
-      </div>
+      </div> */}
     </div>
   );
 };
