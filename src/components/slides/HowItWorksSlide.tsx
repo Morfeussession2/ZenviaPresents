@@ -1,20 +1,21 @@
 import { Zap, FileText, Cpu, CheckCircle, TrendingUp } from "lucide-react";
 import { Card } from "@/components/ui/card";
+import { Icone1, Icone2, Icone3, Icone4, Icone5, Icone6 } from "@/components/Iconesdiferentes"; 
 
 // Array com propriedades de cada card, fácil de editar/expandir
 const diagramCards = [
   {
-    icon: Zap,
+    icon: Icone1,
     title: "Amazon API Gateway",
     color: "text-white",
     top: "70%", left: "-10%",      // posição %
-    width: 170, height: 100,
+    width: 170, height: 105,
     iconColor: "border-pink-400 bg-[#27113f]/70",
     zIndex: 10,
     transform: "translateY(-50%)",
   },
   {
-    icon: Zap,
+    icon: Icone6,
     title: "Jira Webhook",
     color: "text-white",
     top: "70%", left: "-50%",      // posição %
@@ -24,7 +25,7 @@ const diagramCards = [
     transform: "translateY(-50%)",
   },
   {
-    icon: FileText,
+    icon: Icone3,
     title: "Create Comment",
     color: "text-white",
     top: "0%", left: "50%",
@@ -34,18 +35,18 @@ const diagramCards = [
     transform: "translateX(-50%)",
   },
   {
-    icon: FileText,
+    icon: Icone2,
     title: "Amazon CloudWatch",
     subtitle: "Logs",
     color: "text-white",
     top: "110%", left: "50%",
-    width: 170, height: 100,
+    width: 170, height: 110,
     iconColor: "border-purple-400 bg-[#27113f]/80",
     zIndex: 10,
     transform: "translateX(-50%)",
   },
   {
-    icon: Cpu,
+    icon: Icone5,
     title: "Lambda Function",
     color: "text-white",
     top: "70%", left: "50%",
@@ -55,7 +56,7 @@ const diagramCards = [
     transform: "translate(-50%,-50%)",
   },
   {
-    icon: TrendingUp,
+    icon: Icone4,
     title: "Claude Sonnet 4",
     color: "text-white",
     top: "70%", left: "110%",
